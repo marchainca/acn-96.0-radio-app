@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "ACN Radio App · Propuestas de Frontend" },
+      { name: "description", content: "Tres mockups estáticos en HTML para la app móvil de ACN Radio 96.0 FM (Palmira, Valle del Cauca)." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "ACN Radio App · Propuestas de Frontend" },
+      { property: "og:description", content: "Tres mockups estáticos en HTML para la app móvil de ACN Radio 96.0 FM (Palmira, Valle del Cauca)." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ACN Radio App · Propuestas de Frontend" },
+      { name: "twitter:description", content: "Tres mockups estáticos en HTML para la app móvil de ACN Radio 96.0 FM (Palmira, Valle del Cauca)." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cf2e5db1-df8c-490c-9b47-ce78c279bf98/id-preview-b0cf75c9--ff46d047-1afc-46c5-9eb8-a3c14ebaecb3.lovable.app-1784150304080.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cf2e5db1-df8c-490c-9b47-ce78c279bf98/id-preview-b0cf75c9--ff46d047-1afc-46c5-9eb8-a3c14ebaecb3.lovable.app-1784150304080.png" },
     ],
     links: [
       {
